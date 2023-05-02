@@ -1,0 +1,85 @@
+<object-stream>
+  <com.example.semester1assign1.FunkyList>
+    <head>
+      <next>
+        <contents class="com.example.semester1assign1.Models.DisplayCase">
+          <caseType>Unlit</caseType>
+          <caseLighting>Wall-Mounted</caseLighting>
+          <caseNumber>2</caseNumber>
+          <displayTrayList/>
+        </contents>
+      </next>
+      <contents class="com.example.semester1assign1.Models.DisplayCase">
+        <caseType>Lit</caseType>
+        <caseLighting>Free Standing</caseLighting>
+        <caseNumber>1</caseNumber>
+        <displayTrayList>
+          <head>
+            <next>
+              <contents class="com.example.semester1assign1.Models.DisplayTray">
+                <trayIdentifier>2</trayIdentifier>
+                <trayColour>Green</trayColour>
+                <trayHeight>5</trayHeight>
+                <trayWidth>15</trayWidth>
+                <jewelleryItemList>
+                  <head>
+                    <contents class="com.example.semester1assign1.Models.JewelleryItem">
+                      <jewelleryDescription>Well Made</jewelleryDescription>
+                      <jewelleryType>Bracelet</jewelleryType>
+                      <jewelleryGender>Female</jewelleryGender>
+                      <jewelleryImage>w</jewelleryImage>
+                      <jewelleryPrice>500</jewelleryPrice>
+                      <materialList/>
+                    </contents>
+                  </head>
+                  <last reference="../head"/>
+                </jewelleryItemList>
+              </contents>
+            </next>
+            <contents class="com.example.semester1assign1.Models.DisplayTray">
+              <trayIdentifier>1</trayIdentifier>
+              <trayColour>Red</trayColour>
+              <trayHeight>5</trayHeight>
+              <trayWidth>10</trayWidth>
+              <jewelleryItemList>
+                <head>
+                  <next>
+                    <contents class="com.example.semester1assign1.Models.JewelleryItem">
+                      <jewelleryDescription>Well Made</jewelleryDescription>
+                      <jewelleryType>Watch</jewelleryType>
+                      <jewelleryGender>Female</jewelleryGender>
+                      <jewelleryImage>w</jewelleryImage>
+                      <jewelleryPrice>50</jewelleryPrice>
+                      <materialList/>
+                    </contents>
+                  </next>
+                  <contents class="com.example.semester1assign1.Models.JewelleryItem">
+                    <jewelleryDescription>Well Made</jewelleryDescription>
+                    <jewelleryType>Ring</jewelleryType>
+                    <jewelleryGender>Male</jewelleryGender>
+                    <jewelleryImage>w</jewelleryImage>
+                    <jewelleryPrice>100</jewelleryPrice>
+                    <materialList>
+                      <head>
+                        <contents class="com.example.semester1assign1.Models.Material">
+                          <materialType>Platinum</materialType>
+                          <materialDescription>Well made</materialDescription>
+                          <materialWeight>10</materialWeight>
+                          <materialQuality>10</materialQuality>
+                        </contents>
+                      </head>
+                      <last reference="../head"/>
+                    </materialList>
+                  </contents>
+                </head>
+                <last reference="../head/next"/>
+              </jewelleryItemList>
+            </contents>
+          </head>
+          <last reference="../head/next"/>
+        </displayTrayList>
+      </contents>
+    </head>
+    <last reference="../head/next"/>
+  </com.example.semester1assign1.FunkyList>
+</object-stream>

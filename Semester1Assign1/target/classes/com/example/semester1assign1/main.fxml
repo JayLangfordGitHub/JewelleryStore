@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.ChoiceBox?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.ListView?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.BorderPane?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/18" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.semester1assign1.Controllers.mainController">
+   <children>
+      <BorderPane prefHeight="400.0" prefWidth="608.0">
+         <top>
+            <HBox prefHeight="50.0" prefWidth="608.0" style="-fx-background-color: #1ecbe1;" BorderPane.alignment="CENTER">
+               <children>
+                  <Label fx:id="myLabel" alignment="CENTER" prefHeight="20.0" prefWidth="74.0" text="Lighting" textFill="WHITE">
+                     <font>
+                        <Font size="14.0" />
+                     </font>
+                  </Label>
+                  <ChoiceBox fx:id="mainChoiceBoxLighting" prefHeight="26.0" prefWidth="112.0" />
+                  <Label fx:id="myLabel1" alignment="CENTER" prefHeight="20.0" prefWidth="74.0" text="Type" textFill="WHITE">
+                     <font>
+                        <Font size="14.0" />
+                     </font>
+                  </Label>
+                  <ChoiceBox fx:id="mainChoiceBoxType" prefHeight="26.0" prefWidth="112.0" />
+                  <Label fx:id="myLabel2" alignment="CENTER" prefHeight="20.0" prefWidth="74.0" text="Number" textFill="WHITE">
+                     <font>
+                        <Font size="14.0" />
+                     </font>
+                  </Label>
+                  <TextField fx:id="mainTextField" prefHeight="26.0" prefWidth="82.0" />
+               </children>
+               <BorderPane.margin>
+                  <Insets />
+               </BorderPane.margin>
+               <padding>
+                  <Insets top="10.0" />
+               </padding>
+            </HBox>
+         </top>
+         <center>
+            <ListView fx:id="mainListView" prefHeight="200.0" prefWidth="200.0" BorderPane.alignment="CENTER" />
+         </center>
+         <bottom>
+            <HBox prefHeight="50.0" prefWidth="608.0" BorderPane.alignment="CENTER">
+               <children>
+                  <Label prefHeight="50.0" prefWidth="167.0" />
+                  <Label alignment="CENTER" prefHeight="50.0" prefWidth="314.0" text="Display Cases">
+                     <font>
+                        <Font name="System Bold Italic" size="18.0" />
+                     </font>
+                  </Label>
+                  <Button mnemonicParsing="false" onAction="#switchToDisplayTray" text="Next to Display Trays" />
+               </children>
+            </HBox>
+         </bottom>
+         <left>
+            <VBox prefHeight="200.0" prefWidth="100.0" BorderPane.alignment="CENTER">
+               <children>
+                  <Button fx:id="addCaseButton" mnemonicParsing="false" onMouseClicked="#addCase" prefHeight="26.0" prefWidth="71.0" text="Add Case" />
+                  <Button fx:id="removeCaseButton" mnemonicParsing="false" onMouseClicked="#deleteCase" text="Delete Case" />
+                  <Button fx:id="resetCaseButton" mnemonicParsing="false" onAction="#resetCase" text="Reset Cases" />
+                  <Button mnemonicParsing="false" onAction="#switchToViewing" text="View All Stock" />
+                  <Button fx:id="saveAllButton" mnemonicParsing="false" onAction="#saveAll" text="Save" />
+                  <Button fx:id="loadAllButton" mnemonicParsing="false" onAction="#loadAll" text="Load" />
+               </children>
+            </VBox>
+         </left>
+      </BorderPane>
+   </children>
+</AnchorPane>

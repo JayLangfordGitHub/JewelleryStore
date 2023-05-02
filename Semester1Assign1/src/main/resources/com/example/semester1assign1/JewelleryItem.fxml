@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.ChoiceBox?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.ListView?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.BorderPane?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/18" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.semester1assign1.Controllers.JewelleryItemController">
+    <children>
+        <BorderPane prefHeight="400.0" prefWidth="608.0">
+            <top>
+                <HBox prefHeight="68.0" prefWidth="608.0" style="-fx-background-color: #1ecbe1;" BorderPane.alignment="CENTER">
+                    <children>
+                        <Label fx:id="myLabel" alignment="CENTER" prefHeight="20.0" prefWidth="54.0" text="Type" textFill="WHITE">
+                            <font>
+                                <Font size="14.0" />
+                            </font>
+                        </Label>
+                        <ChoiceBox fx:id="jiChoiceBoxType" prefHeight="26.0" prefWidth="70.0" />
+                        <Label fx:id="myLabel1" alignment="CENTER" prefHeight="20.0" prefWidth="66.0" text="Gender" textFill="WHITE">
+                            <font>
+                                <Font size="14.0" />
+                            </font>
+                        </Label>
+                  <ChoiceBox fx:id="jiChoiceBoxGender" prefHeight="26.0" prefWidth="76.0" />
+                        <Label fx:id="myLabel2" alignment="CENTER" prefHeight="20.0" prefWidth="33.0" text="Price" textFill="WHITE">
+                            <font>
+                                <Font size="14.0" />
+                            </font>
+                        </Label>
+                        <TextField fx:id="jiTextFieldPrice" prefHeight="26.0" prefWidth="37.0" />
+                  <Label fx:id="myLabel3" alignment="CENTER" layoutX="10.0" layoutY="20.0" prefHeight="20.0" prefWidth="42.0" text="Image" textFill="WHITE">
+                     <font>
+                        <Font size="14.0" />
+                     </font>
+                  </Label>
+                  <TextField fx:id="jiTextFieldImage" prefHeight="26.0" prefWidth="57.0" />
+                  <Label fx:id="myLabel11" alignment="CENTER" layoutX="88.0" layoutY="20.0" prefHeight="20.0" prefWidth="75.0" text="Description" textFill="WHITE">
+                     <font>
+                        <Font size="14.0" />
+                     </font>
+                  </Label>
+                  <TextField fx:id="jiTextFieldDescription" prefHeight="26.0" prefWidth="93.0" />
+                    </children>
+                    <BorderPane.margin>
+                        <Insets />
+                    </BorderPane.margin>
+                    <padding>
+                        <Insets top="10.0" />
+                    </padding>
+                </HBox>
+            </top>
+            <center>
+                <ListView fx:id="jiListView" prefHeight="274.0" prefWidth="508.0" BorderPane.alignment="CENTER" />
+            </center>
+            <bottom>
+                <HBox prefHeight="50.0" prefWidth="608.0" BorderPane.alignment="CENTER">
+                    <children>
+                        <Button mnemonicParsing="false" onAction="#switchToDisplayTrays" text="Back to Display Trays" />
+                        <Label alignment="CENTER" prefHeight="50.0" prefWidth="364.0" text="Jewellery Items">
+                            <font>
+                                <Font name="System Bold Italic" size="18.0" />
+                            </font>
+                        </Label>
+                        <Button mnemonicParsing="false" onAction="#switchToMaterials" prefHeight="26.0" prefWidth="107.0" text="Next to Materials" />
+                    </children>
+                </HBox>
+            </bottom>
+            <left>
+                <VBox prefHeight="200.0" prefWidth="100.0" BorderPane.alignment="CENTER">
+                    <children>
+                        <Button fx:id="addItem" mnemonicParsing="false" onMouseClicked="#AddItem" prefHeight="26.0" prefWidth="71.0" text="Add Item" />
+                        <Button mnemonicParsing="false" onAction="#removeItem" text="Delete Item" />
+                        <Button fx:id="resetItemButton" mnemonicParsing="false" onAction="#resetItem" text="Reset Items" />
+                        <Button fx:id="ViewAllStock" mnemonicParsing="false" text="View All Stock" />
+                    </children>
+                </VBox>
+            </left>
+        </BorderPane>
+    </children>
+</AnchorPane>
