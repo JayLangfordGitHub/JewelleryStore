@@ -44,9 +44,7 @@ The Jewellery Store Inventory Management is a JavaFX application designed to ass
 - An Integrated Development Environment (IDE) such as IntelliJ IDEA or Eclipse
 
 ### Installation
-1. Clone the repository to your local machine using the following command:
-```bash
-git clone https://github.com/JayLangfordGitHub/JewelleryStore.git## 1. Open the project
+1. Clone the repository to your local machine
 Open the project in your preferred IDE.
 
 2. JavaFX Configuration
