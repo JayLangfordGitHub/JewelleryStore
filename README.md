@@ -1,5 +1,7 @@
 # Jewellery Store
 
+SETU BSc (Hons) in Computer Science (Cloud &amp; Networks) Year 2 Semester 1 Data Structures &amp; Algorithms 1 Assignment 1
+
 ## Overview
 The Jewellery Store Inventory Management is a JavaFX application designed to assist in managing the inventory of a jewellery store. It provides a structured and user-friendly interface to add, view, and manage the store's jewellery items, display cases, and trays. The application enables efficient organization and management of jewellery assets, aiding in the smooth operation of the store.
 
@@ -64,7 +66,6 @@ Build and run the project.
 
 - **Data Management**: Save your current inventory data or load previous data as needed.
 
-SETU BSc (Hons) in Applied Computing (Cloud &amp; Networks) Year 2 Semester 1 Data Structures &amp; Algorithms 1 Assignment 1
 ![image](https://github.com/JayLangfordGitHub/JewelleryStore/assets/132077071/98b2f948-ba60-4f20-8d6d-72962516f01d)
 ![image](https://github.com/JayLangfordGitHub/JewelleryStore/assets/132077071/9666574c-a84a-4c45-aecd-996f4a7daf58)
 ![image](https://github.com/JayLangfordGitHub/JewelleryStore/assets/132077071/bd64db52-c53b-49c0-9c16-b6c8fe7a82e7)
