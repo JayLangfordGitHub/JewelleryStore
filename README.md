@@ -53,9 +53,9 @@ Configure your IDE to use JavaFX SDK.
 3. Build & Run
 Build and run the project.
 
-Usage
+#Usage
 
-- **Launching the Application**: Launch the application and use the provided tabs to navigate between different functionalities.
+**Launching the Application**: Launch the application and use the provided tabs to navigate between different functionalities.
 
 - **Managing Items**: 
   - Add, view, and manage display cases, trays, jewellery items, and materials as per your requirements.
