@@ -1,4 +1,71 @@
-# JewelleryStore
+# Jewellery Store
+
+## Overview
+The Jewellery Store Inventory Management is a JavaFX application designed to assist in managing the inventory of a jewellery store. It provides a structured and user-friendly interface to add, view, and manage the store's jewellery items, display cases, and trays. The application enables efficient organization and management of jewellery assets, aiding in the smooth operation of the store.
+
+## Features
+
+### Display Cases
+- **Type:** Wall Mounted or Free Standing.
+- **Lighting:** Lit or Unlit.
+- **Number:** Input any number to specify the quantity of display cases.
+- **Viewing Inventory:** Visual representation of the jewellery items contained within.
+
+### Display Trays
+- **Material Colour:** Red, Blue, Orange, Purple, Green.
+- **Dimensions:** Specify width and height in cm.
+- **Number:** Input any number to specify the quantity of display trays.
+
+### Jewellery Items
+- **Type:** Watch, Bracelet, or Ring.
+- **Gender:** Male, Female, or Unisex.
+- **Image:** Placeholder for image upload (not functional, for demonstration purposes).
+- **Description:** Text input to describe the jewellery item.
+
+### Materials
+- **Type:** Diamond, Gold, Platinum, Emerald, Silver.
+- **Description:** Text input to describe the material.
+- **Weight:** Specify weight in grams.
+- **Quality:** Specify quality in carats.
+
+### Inventory Management
+- **Save and Load:** Ability to save current inventory data and load previously saved data for easy management.
+- **View All Stock:** Section to view all stock items, with details about each item.
+- **Total Price Calculation:** Obtain total prices of stock in each case and the overall total, listing each item's value.
+
+### Searching
+- **Search Functionality:** Search section to find specific items, materials, or cases based on various criteria.
+
+## Getting Started
+
+### Prerequisites
+- Java SE Development Kit (JDK) 8 or later
+- JavaFX SDK
+- An Integrated Development Environment (IDE) such as IntelliJ IDEA or Eclipse
+
+### Installation
+1. Clone the repository to your local machine using the following command:
+```bash
+git clone https://github.com/JayLangfordGitHub/JewelleryStore.git## 1. Open the project
+Open the project in your preferred IDE.
+
+2. JavaFX Configuration
+Configure your IDE to use JavaFX SDK.
+
+3. Build & Run
+Build and run the project.
+
+Usage
+
+- **Launching the Application**: Launch the application and use the provided tabs to navigate between different functionalities.
+
+- **Managing Items**: 
+  - Add, view, and manage display cases, trays, jewellery items, and materials as per your requirements.
+  
+- **Search Functionality**: Use the search functionality to quickly find and view specific items or materials.
+
+- **Data Management**: Save your current inventory data or load previous data as needed.
+
 SETU BSc (Hons) in Applied Computing (Cloud &amp; Networks) Year 2 Semester 1 Data Structures &amp; Algorithms 1 Assignment 1
 ![image](https://github.com/JayLangfordGitHub/JewelleryStore/assets/132077071/98b2f948-ba60-4f20-8d6d-72962516f01d)
 ![image](https://github.com/JayLangfordGitHub/JewelleryStore/assets/132077071/9666574c-a84a-4c45-aecd-996f4a7daf58)
